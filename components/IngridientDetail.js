@@ -73,6 +73,11 @@ const Box = styled.div`
     @media screen and (max-width: 1000px) {
         p{
             padding: 0 25px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 15; 
+            -webkit-box-orient: vertical;
         }
     }
 `

@@ -26,6 +26,7 @@ function about() {
                         <li>-   <a target="_blank" href="https://www.thecocktaildb.com/">The Cocktail DB</a> (API)</li>
                         <li>-   <a target="_blank" href="https://www.pexels.com/photo/glass-with-cocktail-with-lemon-and-rosemary-placed-on-table-5947027/">Pexels</a> (Landing Page Image)</li>
                         <li>-   <a target="_blank" href="https://material-ui.com/">Material UI</a> (Icons)</li>
+                        <li>-   <a target="_blank" href="https://github.com/Summer-andy/react-loading">React Loadingg</a> (Loaders)</li>
                         <li>-   <a target="_blank" href="https://styled-components.com/">Styled Components</a> (Styling)</li>
                     </ul>
                 </h3>

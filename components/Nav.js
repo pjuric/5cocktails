@@ -4,7 +4,7 @@ import styled from 'styled-components'
 function Nav() {
     return (
         <Container>
-            <Logo src="./images/logo.png"/>
+            <Logo src="/logo.png"/>
             <Menu>
                 <a href="/">Home</a>
                 <a href="/explore">Cocktails</a>
@@ -25,6 +25,7 @@ const Container = styled.div`
 
     @media screen and (max-width: 800px) {
         flex-direction: column;
+        padding: 20px 25px;
     }
 `
 

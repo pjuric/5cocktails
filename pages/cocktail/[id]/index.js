@@ -185,9 +185,12 @@ const Container = styled.div`
     height: 100vh;
     width: 100vw;
     position: relative;
+    padding-bottom: 30px;
 
     @media screen and (max-width: 1000px) {
         height: auto;
+        background: #E47F23;
+        z-index: 0;
         min-height: 100vh;
     }
 `
@@ -219,8 +222,8 @@ const Gradient = styled.div`
     mix-blend-mode: normal;
 
     @media screen and (max-width: 1000px) {
-        background: linear-gradient(0deg, #E47F23 55%, rgba(225, 223, 224, 0.25) 100%);
-        height: 105%;
+        background: linear-gradient(0deg, #E47F23 51%, rgba(225, 223, 224, 0.25) 100%);
+        height: 100vh;
         position: absolute;
         top: 0;
     }
@@ -298,6 +301,7 @@ const Ingridients = styled.div`
 
     @media screen and (max-width: 1000px) {
         width: auto;
+        text-align: left;
     }
 `
 
@@ -322,6 +326,7 @@ const IngridientName = styled.p`
 
 const Measure = styled.p`
     color: #C4C4C4;
+    margin-left: 10px;
 `
 
 const Description = styled.p`
@@ -371,6 +376,7 @@ const Button = styled.a`
     text-decoration: none;
     font-weight: 500;
     cursor: pointer;
+    margin-bottom: 20px;
 
     &:hover{
         background: rgba(212, 66, 69, 0.85);
