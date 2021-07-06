@@ -185,13 +185,13 @@ const Container = styled.div`
     height: 100vh;
     width: 100vw;
     position: relative;
-    padding-bottom: 30px;
 
     @media screen and (max-width: 1000px) {
         height: auto;
         background: #E47F23;
         z-index: 0;
         min-height: 100vh;
+        padding-bottom: 30px;
     }
 `
 
